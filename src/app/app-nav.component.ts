@@ -2,25 +2,29 @@ import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
     selector: 'saa-app-nav',
-    encapsulation: ViewEncapsulation.ShadowDom,
+    templateUrl: 'app-nav.component.html',
+    styleUrls: ['app-nav.component.css'],
+    /*
     template: `
-        <div>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Prerequisites</a>
-                </li>
-                <li>
-                    <a href="#">Modules</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-            </ul>
-        </div>
+    <div>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Prerequisites</a>
+            </li>
+            <li>
+                <a href="#">Modules</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+        </ul>
+    </div>
     `,
+    */
+    /*
     styles: [`
 
         div {
@@ -48,6 +52,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
         }
 
     `]
+    */
 })
 
 export class AppNavComponent {
