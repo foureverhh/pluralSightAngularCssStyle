@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
     selector: 'saa-app-nav',
+    encapsulation: ViewEncapsulation.ShadowDom,
     template: `
         <div>
             <ul>
